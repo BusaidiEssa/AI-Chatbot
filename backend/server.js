@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: '*' })); // Replace * with your frontend domain in production
+app.use(cors({ origin: 'https://ai-chatbot-frontend-lwk2.onrender.com' })); // Replace * with your frontend domain in production
 app.use(bodyParser.json());
 
 // MongoDB Connection
