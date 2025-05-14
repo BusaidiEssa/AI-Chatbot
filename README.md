@@ -2,7 +2,7 @@
 
 A fun and interactive full-stack AI chatbot application built with React (Vite) on the frontend and Node.js/Express with MongoDB and Hugging Face integration on the backend!
 
-![Chat App](https://i.imgur.com/ZL11XMX.png)
+![Chat App]([https://i.imgur.com/ZL11XMX.png](https://i.imgur.com/b5DPUmI.png))
 
 ## ✨ Features
 
