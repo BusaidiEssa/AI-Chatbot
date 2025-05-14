@@ -20,8 +20,7 @@ const Chat: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post(`${import.meta.env.VITE_API_URL}/chat`, {
-
+      const response = await axios.post('https://ai-chatbot-aauo.onrender.com/api/chat', {
         message: userMessage,
       });
 
