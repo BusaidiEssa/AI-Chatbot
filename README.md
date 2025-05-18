@@ -69,7 +69,7 @@ A fun and interactive full-stack AI chatbot application built with React (Vite) 
    VITE_API_URL=http://localhost:5000/api
    ```
    
-   Alternatively, you can hardcode the API URL in your frontend code:
+   Alternatively, you can hardcode the API URL in your frontend code(NOT RECOMMENDED):
    ```javascript
    axios.post('http://localhost:5000/api/chat', {...})
    ```
